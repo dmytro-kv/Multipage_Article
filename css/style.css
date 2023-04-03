@@ -1,0 +1,110 @@
+/* RESET STYLE */
+@import url("reset.css");
+/* ------------ */
+
+/* HEADER STYLE */
+@import url("header.css");
+/* ------------ */
+
+/* FOOTER STYLE */
+@import url("footer.css");
+/* ------------ */
+
+/* ADVENTURE STYLE */
+@import url("section__adventure.css");
+/* ------------ */
+
+/* TOPICS STYLE */
+@import url("section__topics.css");
+/* ------------ */
+
+/* SLIDER STYLE */
+@import url("section__slider.css");
+/* ------------ */
+
+/* SLIDER STYLE */
+@import url("section__posts.css");
+/* ------------ */
+
+/* ARTICLE-HEADER STYLE */
+@import url("article__travel.css");
+/* ------------ */
+
+/* ARTICLE-CONTENT STYLE */
+@import url("article__content.css");
+/* ------------ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lora", serif;
+  color: #495057;
+  font-size: 14px;
+  background-color: #f8f9fa;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+[class*="__container"] {
+  max-width: 83.125rem;
+  margin: 0 auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.label {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 0.5rem;
+  padding: 0.3125rem 0.625rem;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.27;
+  color: #ffffff;
+  max-width: 33.125rem;
+}
+
+.title-dark {
+  color: #495057;
+}
+
+.text {
+  font-size: 0.75rem;
+  line-height: 1.66;
+}
+
+.home__topics {
+  position: relative;
+  z-index: 2;
+  background: #f8f9fa;
+}
+
+.date {
+  line-height: 1.25;
+  font-size: 0.75rem;
+}
+
+.article__posts {
+  background: rgba(229, 229, 229);
+}
