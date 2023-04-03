@@ -1,4 +1,4 @@
-# <a href="http://growfy.hqsite.online">Multipage_Article</a>
+# <a href="http://growfy.hqsite.online" target="_blank">Multipage_Article</a>
 MultiPage-article <br>
 BEM technology <br>
 Videos background <br>
