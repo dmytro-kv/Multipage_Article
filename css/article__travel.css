@@ -131,18 +131,18 @@
 }
 
 .images-parallax__clouds {
-  background: url("/img/images/Parallax/clouds.jpg") top / cover no-repeat;
+  background: url("img/images/Parallax/clouds.jpg") top / cover no-repeat;
   top: 0;
 }
 
 .images-parallax__mountains {
-  background: url("/img/images/Parallax/mountains.png") top / cover no-repeat;
+  background: url("img/images/Parallax/mountains.png") top / cover no-repeat;
   top: 15%;
   z-index: 2;
 }
 
 .images-parallax__human {
-  background: url("/img/images/Parallax/human.png") top / cover no-repeat;
+  background: url("img/images/Parallax/human.png") top / cover no-repeat;
   top: 45%;
   z-index: 3;
 }
